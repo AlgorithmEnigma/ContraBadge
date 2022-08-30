@@ -18,7 +18,7 @@ export default function Home() {
                 <meta
                     name="image"
                     property="og:image"
-                    content="\static\ContraBadge.png"
+                    content="https://contra-badge.s3.amazonaws.com/ContraBadge.png"
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
