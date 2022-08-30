@@ -8,9 +8,17 @@ export default function Home() {
         <div className={styles.container}>
             <Head>
                 <title>ContraBadge</title>
+
+                <meta name="title" property="og:title" content="ContraBadge" />
                 <meta
                     name="description"
+                    property="og:description"
                     content="Get a MD badge for your Contra Profile"
+                />
+                <meta
+                    name="image"
+                    property="og:image"
+                    content="\static\ContraBadge.png"
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
