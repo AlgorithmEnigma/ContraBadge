@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Yeseva+One&display=swap');
+
 .container {
     padding: 0 2rem;
     margin: 1rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .nav {
@@ -18,12 +21,29 @@
 }
 
 .main h1 {
+    font-family: 'Yeseva One', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3rem;
     margin-top: 2rem;
 }
 
 .main h2 {
     font-size: 2rem;
+}
+
+.main p {
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.main p :first-child {
+    color: #0077b6;
+}
+
+.main p :nth-child(3) {
+    color: #fb8b24;
+}
+.main p :last-child {
+    color: #e56b6f;
 }
 
 .main .copyblock {
@@ -37,9 +57,6 @@
 
 .main .copybutton svg {
     cursor: pointer;
-}
-
-.badge {
 }
 
 .footer {

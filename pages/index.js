@@ -75,7 +75,32 @@ export default function Home() {
                         height={100}
                     />
                 </a>
-
+                <p>
+                    I built the website using {''}
+                    <a
+                        className={styles.underlineanimation}
+                        href="https://nextjs.org"
+                    >
+                        Next.js.
+                    </a>
+                    <br />
+                    The endpoint to serve it was built with {''}
+                    <a
+                        className={styles.underlineanimation}
+                        href="https://www.napkin.io/"
+                    >
+                        {' '}
+                        Napkin,
+                    </a>
+                    <br /> and I designed the badge with {''}
+                    <a
+                        className={styles.underlineanimation}
+                        href="https://www.figma.com/"
+                    >
+                        Figma
+                    </a>
+                    .
+                </p>
                 <h1>Usage</h1>
 
                 <div className={styles.copyblock}>
