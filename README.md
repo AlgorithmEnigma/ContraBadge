@@ -10,5 +10,15 @@ Add a Hire me on Contra badge to your GitHub profile or any MD!
 Include this in your MD file, replace the Contra link with your link
 
 ```
-[![Hire on Contra](https://me7674.npkn.net/contra-badge/?size=logo)](https://contra.com/jordan_lowell)
+[![Hire on Contra](https://me7674.npkn.net/contra-badge/{SIZE})](https://contra.com/{CONTRAUSERNAME})
 ```
+
+### Available sizes
+
+* logo
+
+* small
+
+* medium
+
+* large
