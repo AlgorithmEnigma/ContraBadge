@@ -15,10 +15,14 @@ Include this in your MD file, replace the Contra link with your link
 
 ### Available sizes
 
-* logo
+-   logo
 
-* small
+-   small
 
-* medium
+-   medium
 
-* large
+-   large
+
+## Napkin source
+
+https://www.napkin.io/n/f54fab74097542c5
